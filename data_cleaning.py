@@ -33,10 +33,10 @@ df['Target'] = (df['Engagement Rate'] > 3.5).astype('int')
 #df.to_csv(clean_df,index=False)
 #print('成功')
 
-server = 'LAPTOP-E5RI25OJ'  # 例如 'localhost\SQLEXPRESS'
-database = 'InstagramAnalytics'  # 你的資料庫名稱
-username = ''  # 如果使用 Windows Auth，留空
-password = ''  # 如果使用 Windows Auth，留空
+server = 'LAPTOP-E5RI25OJ'  
+database = 'InstagramAnalytics'  
+username = ''  
+password = '' 
 
 # 建立連接字符串
 engine = create_engine(
